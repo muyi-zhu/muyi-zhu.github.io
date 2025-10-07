@@ -193,6 +193,59 @@ document.addEventListener('DOMContentLoaded', function() {
             scrollTopBtn.style.display = 'none';
         }
     });
+
+    // Dynamically load News and Publications from separate pages so content stays in one place
+    (function loadExternalSections() {
+        // Helper to fetch HTML and parse
+        function fetchDocument(url) {
+            return fetch(url, { credentials: 'same-origin' })
+                .then(res => res.text())
+                .then(html => {
+                    const parser = new DOMParser();
+                    return parser.parseFromString(html, 'text/html');
+                })
+                .catch(() => null);
+        }
+
+        // Load News: replace homepage .news-list with items from news.html .news-list
+        const homeNewsList = document.querySelector('.news-section .news-list');
+        if (homeNewsList) {
+            fetchDocument('news.html').then(doc => {
+                if (!doc) return;
+                const sourceNewsList = doc.querySelector('.news-list');
+                if (!sourceNewsList) return;
+                const items = Array.from(sourceNewsList.querySelectorAll('.news-item'));
+                // Keep top 6 items on homepage
+                const topItems = items.slice(0, 6);
+                homeNewsList.innerHTML = '';
+                topItems.forEach(item => homeNewsList.appendChild(item.cloneNode(true)));
+            });
+        }
+
+        // Load Publications: take cards from publications.html and show top 3 (ongoing first)
+        const homePubList = document.querySelector('.publications-section .publications-list');
+        if (homePubList) {
+            fetchDocument('publications.html').then(doc => {
+                if (!doc) return;
+                // Collect all publication cards across year sections
+                const cards = Array.from(doc.querySelectorAll('.publication-card'));
+                if (!cards.length) return;
+                // Sort: ongoing (has data-status) first, then by data-date desc
+                const sorted = cards.sort((a, b) => {
+                    const aOngoing = a.hasAttribute('data-status');
+                    const bOngoing = b.hasAttribute('data-status');
+                    if (aOngoing && !bOngoing) return -1;
+                    if (!aOngoing && bOngoing) return 1;
+                    const aDate = a.getAttribute('data-date') || '0000.00.00';
+                    const bDate = b.getAttribute('data-date') || '0000.00.00';
+                    return bDate.localeCompare(aDate);
+                });
+                const top = sorted.slice(0, 3);
+                homePubList.innerHTML = '';
+                top.forEach(card => homePubList.appendChild(card.cloneNode(true)));
+            });
+        }
+    })();
 });
 
 // Add CSS for tooltip
