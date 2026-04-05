@@ -7,15 +7,15 @@
 
 body {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.5;
+    line-height: 1.45;
     color: #333;
     background-color: #fff;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 12px;
 }
 
 /* Typography */
@@ -48,7 +48,7 @@ a:hover {
     left: 0;
     right: 0;
     z-index: 1000;
-    padding: 0.6rem 0;
+    padding: 0.5rem 0;
 }
 
 .navbar .container {
@@ -58,14 +58,14 @@ a:hover {
 }
 
 .nav-brand a {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: #333;
 }
 
 .nav-menu {
     display: flex;
-    gap: 1.5rem;
+    gap: 1.2rem;
 }
 
 .nav-link {
@@ -95,79 +95,79 @@ a:hover {
 
 /* Main Content */
 main {
-    margin-top: 55px;
-    padding: 0.8rem 0;
+    margin-top: 52px;
+    padding: 0.65rem 0;
 }
 
 /* Page Header */
 .page-header {
     background: #f8fafc;
-    padding: 1.2rem 0;
+    padding: 1rem 0;
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.95rem;
 }
 
 .page-title {
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     color: #333;
     margin-bottom: 0.4rem;
 }
 
 .page-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #666;
 }
 
 /* Section Styling with Shadow Boundaries */
 section {
-    margin-bottom: 1.2rem;
-    padding: 1rem;
+    margin-bottom: 0.95rem;
+    padding: 0.82rem;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .section-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     text-align: left;
 }
 
 /* Year Section in Publications */
 .year-section {
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.95rem;
 }
 
 .year-title {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     color: #2563eb;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     text-align: left;
     border-bottom: 3px solid #e0e7ff;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.25rem;
 }
 
 /* About Section (Muyi Zhu) */
 .about-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 1.2rem;
+    gap: 0.95rem;
     align-items: start;
 }
 
 .about-text {
-    font-size: 0.95rem;
+    font-size: 0.92rem;
 }
 
 .research-interests {
     list-style: none;
-    margin: 0.4rem 0;
+    margin: 0.3rem 0;
 }
 
 .research-interests li {
-    margin-bottom: 0.25rem;
-    padding-left: 0.6rem;
+    margin-bottom: 0.18rem;
+    padding-left: 0.55rem;
     position: relative;
 }
 
@@ -180,32 +180,32 @@ section {
 }
 
 .education {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 .education h3 {
     color: #2563eb;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.3rem;
 }
 
 .education-item {
     display: flex;
     align-items: center;
-    margin-bottom: 0.4rem;
-    padding: 0.4rem;
+    margin-bottom: 0.3rem;
+    padding: 0.32rem;
     background: #f8fafc;
     border-radius: 6px;
 }
 
 .school-icon {
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
     background: #fff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 0.6rem;
+    margin-right: 0.5rem;
     color: #2563eb;
     font-size: 1rem;
     overflow: hidden;
@@ -231,14 +231,14 @@ section {
 
 .education-details p {
     margin: 0;
-    line-height: 1.3;
-    font-size: 0.9rem;
+    line-height: 1.25;
+    font-size: 0.86rem;
 }
 
 /* Internships Section */
 .internships-section {
-    margin-bottom: 1.2rem;
-    padding: 1rem;
+    margin-bottom: 0.95rem;
+    padding: 0.82rem;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -246,15 +246,15 @@ section {
 
 .internships-list {
     list-style: none;
-    margin: 0.4rem 0;
+    margin: 0.3rem 0;
 }
 
 .internships-list li {
-    margin-bottom: 0.25rem;
-    padding-left: 0.6rem;
+    margin-bottom: 0.18rem;
+    padding-left: 0.55rem;
     position: relative;
-    line-height: 1.4;
-    font-size: 0.9rem;
+    line-height: 1.35;
+    font-size: 0.86rem;
 }
 
 .internships-list li::before {
@@ -271,8 +271,8 @@ section {
 
 /* Awards Section */
 .awards-section {
-    margin-bottom: 1.2rem;
-    padding: 1rem;
+    margin-bottom: 0.95rem;
+    padding: 0.82rem;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -280,15 +280,15 @@ section {
 
 .awards-list {
     list-style: none;
-    margin: 0.4rem 0;
+    margin: 0.3rem 0;
 }
 
 .awards-list li {
-    margin-bottom: 0.25rem;
-    padding-left: 0.6rem;
+    margin-bottom: 0.18rem;
+    padding-left: 0.55rem;
     position: relative;
-    line-height: 1.4;
-    font-size: 0.9rem;
+    line-height: 1.35;
+    font-size: 0.86rem;
 }
 
 .awards-list li::before {
@@ -318,12 +318,12 @@ section {
 }
 
 .profile-image {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.65rem;
 }
 
 .profile-photo {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #f1f5f9;
@@ -331,35 +331,35 @@ section {
 }
 
 .profile-info h3 {
-    font-size: 1.3rem;
+    font-size: 1.22rem;
     color: #333;
     margin-bottom: 0.3rem;
 }
 
 .school {
     color: #666;
-    font-size: 0.95rem;
-    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
 }
 
 .contact-info {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 0.6rem;
-    margin-top: 0.6rem;
+    gap: 0.45rem;
+    margin-top: 0.5rem;
 }
 
 .contact-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     background: #f8fafc;
     border-radius: 50%;
     color: #2563eb;
-    font-size: 1rem;
+    font-size: 0.92rem;
     transition: all 0.3s ease;
     border: 2px solid transparent;
 }
@@ -378,7 +378,7 @@ section {
 
 /* News Section */
 .news-container {
-    max-height: 280px;
+    max-height: 250px;
     overflow-y: auto;
     padding-right: 8px;
 }
@@ -386,11 +386,11 @@ section {
 .news-list {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.58rem;
 }
 
 .news-item {
-    padding: 0.8rem;
+    padding: 0.62rem;
     background: #f8fafc;
     border-radius: 8px;
     border-left: 4px solid #2563eb;
@@ -402,15 +402,15 @@ section {
     color: white;
     padding: 0.15rem 0.5rem;
     border-radius: 20px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.3rem;
 }
 
 .news-item p {
     margin: 0;
-    line-height: 1.4;
-    font-size: 0.9rem;
+    line-height: 1.35;
+    font-size: 0.86rem;
 }
 
 .news-item a {
@@ -426,19 +426,19 @@ section {
 .publications-list {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.65rem;
 }
 
 .publication-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0.86rem;
     background: #f8fafc;
     border-radius: 8px;
     border-left: 4px solid #2563eb;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    gap: 1rem;
+    gap: 0.8rem;
 }
 
 .publication-card:hover {
@@ -451,8 +451,8 @@ section {
 }
 
 .publication-title {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
 }
 
 .publication-title a {
@@ -465,40 +465,40 @@ section {
 }
 
 .publication-meta {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.35rem;
 }
 
 .publication-keywords {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.3rem;
 }
 
 .keyword {
     display: inline-block;
     background: #e0e7ff;
     color: #3730a3;
-    padding: 0.15rem 0.5rem;
+    padding: 0.12rem 0.45rem;
     border-radius: 20px;
-    font-size: 0.75rem;
-    margin-right: 0.3rem;
-    margin-bottom: 0.25rem;
+    font-size: 0.72rem;
+    margin-right: 0.22rem;
+    margin-bottom: 0.2rem;
 }
 
 .publication-authors {
     color: #666;
-    font-size: 0.85rem;
-    margin-bottom: 0.25rem;
+    font-size: 0.82rem;
+    margin-bottom: 0.2rem;
 }
 
 .publication-journal {
     color: #888;
     font-style: italic;
-    font-size: 0.8rem;
-    margin-bottom: 0.4rem;
+    font-size: 0.77rem;
+    margin-bottom: 0.3rem;
 }
 
 .publication-image {
-    width: 180px;
-    height: 140px;
+    width: 168px;
+    height: 128px;
     background: #fff;
     border-radius: 8px;
     overflow: hidden;
@@ -535,8 +535,8 @@ section {
 /* Portfolio Section */
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.8rem;
 }
 
 .portfolio-item {
@@ -549,7 +549,7 @@ section {
 }
 
 .portfolio-item:hover {
-    transform: translateY(-3px);
+    transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -586,7 +586,7 @@ section {
 }
 
 .portfolio-info {
-    padding: 0.8rem;
+    padding: 0.65rem;
 }
 
 .portfolio-info h3 {
@@ -598,20 +598,20 @@ section {
 .portfolio-date {
     color: #2563eb;
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
     font-size: 0.8rem;
 }
 
 .portfolio-description {
     color: #666;
-    line-height: 1.4;
-    font-size: 0.85rem;
+    line-height: 1.35;
+    font-size: 0.82rem;
 }
 
 /* Buttons */
 .btn {
     display: inline-block;
-    padding: 0.4rem 0.8rem;
+    padding: 0.34rem 0.72rem;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
@@ -619,7 +619,7 @@ section {
     transition: all 0.3s ease;
     cursor: pointer;
     border: none;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
 }
 
 .btn-primary {
@@ -650,8 +650,8 @@ section {
 /* Footer */
 .footer {
     background: #f8fafc;
-    padding: 1rem 0;
-    margin-top: 1.2rem;
+    padding: 0.8rem 0;
+    margin-top: 0.95rem;
     text-align: center;
     color: #666;
 }
@@ -663,14 +663,14 @@ section {
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 55px;
+        top: 52px;
         flex-direction: column;
         background-color: #fff;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        padding: 1rem 0;
+        padding: 0.9rem 0;
     }
 
     .nav-menu.active {
@@ -683,7 +683,7 @@ section {
 
     .about-content {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .about-profile {
@@ -693,25 +693,25 @@ section {
     .publication-card {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.6rem;
+        gap: 0.5rem;
     }
 
     .publication-image {
         width: 100%;
-        height: 140px;
+        height: 130px;
         align-self: center;
     }
 
     .internships-section,
     .awards-section {
-        padding: 0.8rem;
-        margin-bottom: 1rem;
+        padding: 0.65rem;
+        margin-bottom: 0.8rem;
     }
 
     .internships-list li,
     .awards-list li {
-        margin-bottom: 0.2rem;
-        font-size: 0.85rem;
+        margin-bottom: 0.15rem;
+        font-size: 0.82rem;
         padding-left: 0.5rem;
     }
 
@@ -720,70 +720,70 @@ section {
     }
 
     .container {
-        padding: 0 12px;
+        padding: 0 10px;
     }
 
     section {
-        padding: 0.8rem;
-        margin-bottom: 1rem;
+        padding: 0.65rem;
+        margin-bottom: 0.8rem;
     }
 
     .section-title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .page-title {
-        font-size: 1.6rem;
+        font-size: 1.45rem;
     }
 
     main {
-        margin-top: 50px;
-        padding: 0.6rem 0;
+        margin-top: 48px;
+        padding: 0.45rem 0;
     }
 
     .profile-photo {
-        width: 160px;
-        height: 160px;
-    }
-
-    .contact-icon {
-        width: 30px;
-        height: 30px;
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .container {
-        padding: 0 8px;
-    }
-
-    section {
-        padding: 0.6rem;
-    }
-
-    .profile-photo {
-        width: 140px;
-        height: 140px;
-    }
-
-    .btn {
-        padding: 0.35rem 0.7rem;
-        font-size: 0.8rem;
-    }
-
-    .page-title {
-        font-size: 1.4rem;
-    }
-
-    .publication-image {
-        height: 120px;
+        width: 150px;
+        height: 150px;
     }
 
     .contact-icon {
         width: 28px;
         height: 28px;
         font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 6px;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+
+    .profile-photo {
+        width: 132px;
+        height: 132px;
+    }
+
+    .btn {
+        padding: 0.3rem 0.62rem;
+        font-size: 0.76rem;
+    }
+
+    .page-title {
+        font-size: 1.3rem;
+    }
+
+    .publication-image {
+        height: 108px;
+    }
+
+    .contact-icon {
+        width: 26px;
+        height: 26px;
+        font-size: 0.8rem;
     }
 }
 
@@ -808,7 +808,7 @@ section {
 
 /* Project Detail Pages */
 .back-link {
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
 }
 
 .back-link a {
@@ -828,17 +828,17 @@ section {
 .project-date {
     color: #2563eb;
     font-weight: 500;
-    font-size: 1rem;
-    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    margin-top: 0.35rem;
 }
 
 .project-site {
     color: #475569;
-    font-size: 0.95rem;
-    margin-top: 0.25rem;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
     display: flex;
     align-items: center;
-    gap: 0.4rem;
+    gap: 0.3rem;
 }
 
 .project-site i {
@@ -846,50 +846,50 @@ section {
 }
 
 .project-content {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 }
 
 .project-description h2 {
     color: #333;
-    margin-bottom: 0.8rem;
-    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.3rem;
 }
 
 .project-description h3 {
     color: #444;
-    margin: 1rem 0 0.5rem 0;
-    font-size: 1.1rem;
+    margin: 0.8rem 0 0.4rem 0;
+    font-size: 1.02rem;
 }
 
 .project-description p {
     color: #666;
-    line-height: 1.6;
-    margin-bottom: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
 }
 
 .project-description ul {
-    margin: 0.5rem 0 1rem 1.5rem;
+    margin: 0.4rem 0 0.75rem 1.35rem;
     color: #666;
 }
 
 .project-description li {
-    margin-bottom: 0.3rem;
-    line-height: 1.5;
+    margin-bottom: 0.22rem;
+    line-height: 1.4;
 }
 
 .project-gallery {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .project-gallery h2 {
     color: #333;
-    margin-bottom: 1rem;
-    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
 }
 
 /* Embedded PDF viewer for project pages */
 .pdf-viewer {
-    height: 900px;
+    height: 820px;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
     overflow: hidden;
@@ -899,8 +899,8 @@ section {
 .gallery-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-top: 1rem;
+    gap: 1.1rem;
+    margin-top: 0.8rem;
 }
 
 .gallery-item {
@@ -919,7 +919,7 @@ section {
 .gallery-item img {
     width: 100%;
     height: auto;
-    max-height: 900px;
+    max-height: 820px;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -929,7 +929,7 @@ section {
 }
 
 .image-placeholder {
-    height: 550px;
+    height: 480px;
     background: #f8fafc;
     display: flex;
     flex-direction: column;
@@ -949,49 +949,49 @@ section {
 @media (max-width: 768px) {
     .gallery-grid {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 0.8rem;
     }
     
     .gallery-item img {
-        max-height: 650px;
+        max-height: 560px;
     }
     
     .image-placeholder {
-        height: 400px;
-    }
-    
-    .project-description h2 {
-        font-size: 1.3rem;
-    }
-
-    .pdf-viewer {
-        height: 650px;
-    }
-}
-
-@media (max-width: 480px) {
-    .gallery-item img {
-        max-height: 450px;
-    }
-    
-    .image-placeholder {
-        height: 280px;
+        height: 340px;
     }
     
     .project-description h2 {
         font-size: 1.2rem;
     }
+
+    .pdf-viewer {
+        height: 560px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item img {
+        max-height: 400px;
+    }
+    
+    .image-placeholder {
+        height: 240px;
+    }
+    
+    .project-description h2 {
+        font-size: 1.1rem;
+    }
     
     .back-link {
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.65rem;
     }
 
     .pdf-viewer {
-        height: 480px;
+        height: 420px;
     }
 }
 
 /* Wider content area for project detail pages */
 .project-content .container {
-    max-width: 1400px;
+    max-width: 1300px;
 }
