@@ -152,8 +152,8 @@ document.addEventListener('DOMContentLoaded', function() {
         right: 30px;
         width: 50px;
         height: 50px;
-        background: #2563eb;
-        color: white;
+        background: var(--theme-accent);
+        color: var(--theme-primary-deep);
         border: none;
         border-radius: 50%;
         cursor: pointer;
@@ -176,12 +176,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     scrollTopBtn.addEventListener('mouseenter', function() {
-        this.style.background = '#1d4ed8';
+        this.style.background = 'var(--theme-accent-deep)';
         this.style.transform = 'scale(1.1)';
     });
 
     scrollTopBtn.addEventListener('mouseleave', function() {
-        this.style.background = '#2563eb';
+        this.style.background = 'var(--theme-accent)';
         this.style.transform = 'scale(1)';
     });
 
@@ -196,15 +196,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Dynamically load News and Publications from separate pages so content stays in one place
     (function loadExternalSections() {
-        // Helper to fetch HTML and parse
-        function fetchDocument(url) {
-            return fetch(url, { credentials: 'same-origin' })
-                .then(res => res.text())
-                .then(html => {
-                    const parser = new DOMParser();
+        // Helper to fetch HTML and parse. Use no-store + timestamp to avoid stale cache.
+        async function fetchDocument(url) {
+            const parser = new DOMParser();
+            const resolvedUrl = new URL(url, window.location.href);
+            const cacheBypassUrl = new URL(resolvedUrl.toString());
+            cacheBypassUrl.searchParams.set('_ts', Date.now().toString());
+            const candidates = [cacheBypassUrl.toString(), resolvedUrl.toString()];
+
+            for (const candidate of candidates) {
+                try {
+                    const res = await fetch(candidate, {
+                        credentials: 'same-origin',
+                        cache: 'no-store'
+                    });
+                    if (!res.ok) continue;
+                    const html = await res.text();
                     return parser.parseFromString(html, 'text/html');
-                })
-                .catch(() => null);
+                } catch (err) {
+                    continue;
+                }
+            }
+
+            return null;
         }
 
         // Load News: replace homepage .news-list with items from news.html .news-list
@@ -212,11 +226,12 @@ document.addEventListener('DOMContentLoaded', function() {
         if (homeNewsList) {
             fetchDocument('news.html').then(doc => {
                 if (!doc) return;
-                const sourceNewsList = doc.querySelector('.news-list');
+                const sourceNewsList = doc.querySelector('.news-timeline .news-list') || doc.querySelector('.news-list');
                 if (!sourceNewsList) return;
                 const items = Array.from(sourceNewsList.querySelectorAll('.news-item'));
                 // Keep top 6 items on homepage
                 const topItems = items.slice(0, 6);
+                if (!topItems.length) return;
                 homeNewsList.innerHTML = '';
                 topItems.forEach(item => homeNewsList.appendChild(item.cloneNode(true)));
             });
@@ -241,6 +256,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     return bDate.localeCompare(aDate);
                 });
                 const top = sorted.slice(0, 3);
+                if (!top.length) return;
                 homePubList.innerHTML = '';
                 top.forEach(card => homePubList.appendChild(card.cloneNode(true)));
             });
