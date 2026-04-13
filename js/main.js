@@ -2,6 +2,20 @@
 
 // Mobile Navigation Toggle
 document.addEventListener('DOMContentLoaded', function() {
+    // Single source of truth for footer text across all pages.
+    const FOOTER_OWNER = 'Muyi Zhu';
+    const FOOTER_YEAR = '2026';
+
+    function syncFooterCopyright() {
+        const footerText = `© ${FOOTER_YEAR} ${FOOTER_OWNER}. All rights reserved.`;
+        const footerParagraphs = document.querySelectorAll('.footer .footer-content p');
+        footerParagraphs.forEach(p => {
+            p.textContent = footerText;
+        });
+    }
+
+    syncFooterCopyright();
+
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
 
