@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Show feedback
             const originalText = this.textContent;
             this.textContent = 'Copied!';
-            this.style.color = '#10b981';
+            this.style.color = 'var(--theme-primary)';
             
             setTimeout(() => {
                 this.textContent = originalText;
