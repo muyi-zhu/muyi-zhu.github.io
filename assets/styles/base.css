@@ -1,0 +1,17 @@
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-height) + 20px);scrollbar-gutter:stable;background:var(--background)}
+body{margin:0;background:var(--background);color:var(--foreground);font-family:var(--font-body);font-size:20px;line-height:1.4;letter-spacing:-.005em;-webkit-font-smoothing:antialiased}
+body:has(dialog[open]){overflow:hidden}
+h1,h2,h3,p,figure{margin:0}
+h1,h2,h3{font-weight:600}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:4px}
+button{font:inherit;color:inherit;letter-spacing:inherit;background:none;border:0;padding:0;cursor:pointer}
+img{display:block;max-width:100%;height:auto}
+button,a{-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible{outline:2px solid #fff;outline-offset:6px;border-radius:2px}
+::selection{background:#eee;color:#000}
+.skip-link{position:fixed;top:12px;left:16px;padding:10px 16px;background:white;color:black;z-index:100;transform:translateY(-180%)}
+.skip-link:focus{transform:translateY(0)}
+[hidden]{display:none!important}
+.source-underline{text-decoration:underline;text-underline-offset:3px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}

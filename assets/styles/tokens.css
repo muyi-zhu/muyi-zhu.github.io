@@ -1,0 +1,22 @@
+/* Authored Figma tokens. Responsive rules are in layout.css and pages.css. */
+@font-face{font-family:'Science Gothic';font-style:normal;font-weight:400;font-display:swap;src:url('../../fonts/science-gothic-0.woff2') format('woff2')}
+@font-face{font-family:'Science Gothic';font-style:normal;font-weight:600;font-display:swap;src:url('../../fonts/science-gothic-1.woff2') format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:400;font-display:swap;src:url('../../fonts/schibsted-grotesk-0.woff2') format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:600;font-display:swap;src:url('../../fonts/schibsted-grotesk-1.woff2') format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:700;font-display:swap;src:url('../../fonts/schibsted-grotesk-2.woff2') format('woff2')}
+@font-face{font-family:'Schibsted Grotesk';font-style:normal;font-weight:800;font-display:swap;src:url('../../fonts/schibsted-grotesk-3.woff2') format('woff2')}
+:root{
+  --background:#000;
+  --foreground:#fff;
+  --muted:#ababab;
+  --line:#383838;
+  --font-body:'Schibsted Grotesk',Arial,sans-serif;
+  --font-display:'Science Gothic','Schibsted Grotesk',Arial,sans-serif;
+  --page-padding:30px;
+  --site-width:1409px;
+  --header-height:59px;
+  --sidebar-home:312px;
+  --sidebar-inner:280px;
+  --radius-image:15px;
+  --transition:180ms ease;
+}

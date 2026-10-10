@@ -1,0 +1,85 @@
+{
+  "name": "Muyi Zhu",
+  "bioHtml": "Muyi Zhu is currently a Research Assistant in the Department of Geography at the University of Hong Kong, supervised by <a href=\"https://geog.hku.hk/js-xu\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Prof. Junshi Xu</strong></a>. Muyi is expected to begin his PhD studies at ETH Zurich in January 2027, under the supervision of <a href=\"https://im.ibi.ethz.ch/en/people/prof-dr-bryan-adey.html\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Prof. Bryan T. Adey</strong></a>.\nHis research focuses on road safety, environmental exposure, and active urban mobility, with a particular emphasis on evaluating the effectiveness of infrastructure interventions for pedestrians, cyclists, and micromobility users. He applies geospatial modelling, machine learning, and causal inference to assess how infrastructure and built-environment interventions affect actual and perceived safety.\nMuyi Zhu received a B.Eng. in Urban and Rural Planning from <a href=\"https://sola.bjfu.edu.cn/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Beijing Forestry University</strong></a> in 2024 and an MSc in Geospatial Data Science from <a href=\"https://geog.hku.hk/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>the University of Hong Kong</strong></a> in 2025.",
+  "interests": [
+    "My key research interests include:",
+    "Road Safety",
+    "Infrastructure Evaluation",
+    "Spatiotemporal Urban Mobility",
+    "Air Quality Modeling"
+  ],
+  "hero": {
+    "src": "images/buildings-1867726-2965e5e2.webp",
+    "full": "images/buildings-1867726-2965e5e2-full.webp",
+    "width": 4096,
+    "height": 2731,
+    "nodeId": "9:617",
+    "hash": "2965e5e289d73ab532be6ed29a2ae7254f22f517",
+    "box": {
+      "x": 1349,
+      "y": 474
+    },
+    "radius": 0,
+    "opacity": 0.800000011920929,
+    "mode": "STRETCH",
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0.00039032005588524044,
+      "m10": 0,
+      "m11": 0.4971371293067932,
+      "m12": 0.17236246168613434
+    },
+    "filters": {
+      "tint": 0,
+      "shadows": 0,
+      "highlights": 0,
+      "exposure": -0.23000000417232513,
+      "temperature": -0.12999999523162842,
+      "vibrance": 0,
+      "contrast": 0
+    }
+  },
+  "avatar": {
+    "src": "images/20250112200711-fdb0e28c.webp",
+    "full": "images/20250112200711-fdb0e28c-full.webp",
+    "width": 849,
+    "height": 849,
+    "nodeId": "15:1269",
+    "hash": "fdb0e28cfd21ee17225a271e87b1873716b31a76",
+    "box": {
+      "x": 174,
+      "y": 174
+    },
+    "radius": 290,
+    "opacity": 0.8999999761581421,
+    "mode": "FILL",
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "filters": {}
+  },
+  "contacts": [
+    {
+      "label": "zhumuyi0321@connect.hku.hk",
+      "url": "mailto:zhumuyi0321@connect.hku.hk"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=OaiAW3MAAAAJ&hl=en"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/muyi-zhu"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0000-6889-0968"
+    }
+  ]
+}

@@ -1,269 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muyi Zhu - Academic Website</title>
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Muyi Zhu researches road safety, environmental exposure and active urban mobility, using geospatial modelling, machine learning and causal inference.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muyi Zhu — Urban research &amp; design">
+  <meta property="og:description" content="Muyi Zhu researches road safety, environmental exposure and active urban mobility, using geospatial modelling, machine learning and causal inference.">
+  <title>Muyi Zhu — Urban research &amp; design</title>
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles/site.css">
+  <link rel="preload" href="fonts/schibsted-grotesk-0.woff2" as="font" type="font/woff2" crossorigin>
+  <script src="assets/scripts/main.js" defer></script>
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <a href="index.html">Homepage</a>
-            </div>
-            <div class="nav-menu" id="nav-menu">
-                <a href="publications.html" class="nav-link">Publication</a>
-                <a href="news.html" class="nav-link">News</a>
-                <a href="design.html" class="nav-link">Design</a>
-            </div>
-            <div class="nav-toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </nav>
+<body class="home-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell home-shell">
+    <header class="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
+    <a class="nav-home active" href="index.html" aria-current="page">Homepage</a>
+    <div class="nav-secondary">
+      <a class="" href="publication/" >Publication</a>
+      <a class="" href="news/" >News</a>
+    </div>
+  </nav>
+</header>
 
-    <!-- Main Content -->
-    <main>
-        <!-- Muyi Zhu Section -->
-        <section id="about" class="about">
-            <div class="container">
-                <h2 class="section-title">Muyi Zhu</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>Welcome to my academic homepage! I am currently a Research Assistant in the Department of Geography at The University of Hong Kong, supervised by <strong><a class="supervisor-link" href="https://geog.hku.hk/js-xu">Prof. Junshi Xu</a></strong>. My current work focuses on data-driven and causal-spatial approaches to transportation safety, mobility behavior, and urban environmental exposure.</p>
-                        <p>My key research interests include:</p>
-                        <ul class="research-interests">
-                            <li><strong>Transportation Safety</strong></li>
-                            <li><strong>Spatiotemporal Travel Behavior Analysis</strong></li>
-                            <li><strong>Air Quality Modeling</strong></li>
-                            <li><strong>Environmental Justice</strong></li>
-                        </ul>
-                        <p>I am expected to begin my PhD studies at ETH Zurich in January 2027, under the supervision of <strong><a class="supervisor-link" href="https://im.ibi.ethz.ch/en/people/prof-dr-bryan-adey.html">Prof. Bryan T. Adey</a></strong>.</p>
-                        <p>I warmly welcome collaboration with researchers in academia and beyond! Please feel free to reach out via zhumuyi0321@connect.hku.hk.</p>
-                        
-                        
-                        <div class="education">
-                            <h3>Education</h3>
-                            <div class="education-item">
-                                <div class="school-icon">
-                                    <img src="images/schools/hku.png" alt="HKU" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                                    <i class="fas fa-university" style="display: none;"></i>
-                                </div>
-                                <div class="education-details">
-                                    <p><strong><a href="https://www.geods.hku.hk/" target="_blank">MSc in Geospatial Data Science</a></strong>, The University of Hong Kong (HKU), Hong Kong, China, <em>2025</em></p>
-                                </div>
-                            </div>
-                            <div class="education-item">
-                                <div class="school-icon">
-                                    <img src="images/schools/bjfu.png" alt="BJFU" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                                    <i class="fas fa-university" style="display: none;"></i>
-                                </div>
-                                <div class="education-details">
-                                    <p><strong>B.Eng. in Urban and Rural Planning</strong>, Beijing Forestry University (BJFU), Beijing, China, <em>2024</em></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="about-profile">
-                        <div class="profile-image">
-                            <img src="images/muyi.png" alt="Muyi Zhu" class="profile-photo">
-                        </div>
-                        <div class="profile-info">
-                            <h3>Muyi Zhu</h3>
-                            <p class="school">The University of Hong Kong</p>
-                            <div class="contact-info">
-                                <a href="mailto:zhumuyi0321@connect.hku.hk" class="contact-icon" title="Email">
-                                    <i class="fas fa-envelope"></i>
-                                </a>
-                                <a href="https://scholar.google.com/citations?user=OaiAW3MAAAAJ&hl=zh-CN" target="_blank" class="contact-icon" title="Google Scholar">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </a>
-                                <a href="https://orcid.org/my-orcid?orcid=0009-0000-6889-0968" target="_blank" class="contact-icon" title="ORCID">
-                                    <i class="fas fa-id-card"></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/muyi-zhu-91265228b/" target="_blank" class="contact-icon" title="LinkedIn">
-                                    <i class="fab fa-linkedin"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <main id="main">
+  <div class="hero-image" style="--image-opacity:0.800000011920929;--image-filter:brightness(0.853);--crop-width:100%;--crop-height:201.1517428590372%;--crop-left:-0.039032005588524044%;--crop-top:-34.67100957163995%;" data-figma-node="9:617"><img src="images/buildings-1867726-2965e5e2.webp" alt="A panoramic cityscape from the original website design" width="4096" height="2731" fetchpriority="high" decoding="async"></div>
+  <section class="profile-intro" aria-labelledby="profile-name">
+    <div class="profile-copy">
+      <h1 id="profile-name">Muyi Zhu</h1>
+      <div class="bio"><p>Muyi Zhu is currently a Research Assistant in the Department of Geography at the University of Hong Kong, supervised by <a href="https://geog.hku.hk/js-xu" target="_blank" rel="noopener noreferrer"><strong>Prof. Junshi Xu</strong></a>. Muyi is expected to begin his PhD studies at ETH Zurich in January 2027, under the supervision of <a href="https://im.ibi.ethz.ch/en/people/prof-dr-bryan-adey.html" target="_blank" rel="noopener noreferrer"><strong>Prof. Bryan T. Adey</strong></a>.</p>
+<p>His research focuses on road safety, environmental exposure, and active urban mobility, with a particular emphasis on evaluating the effectiveness of infrastructure interventions for pedestrians, cyclists, and micromobility users. He applies geospatial modelling, machine learning, and causal inference to assess how infrastructure and built-environment interventions affect actual and perceived safety.</p>
+<p>Muyi Zhu received a B.Eng. in Urban and Rural Planning from <a href="https://sola.bjfu.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Beijing Forestry University</strong></a> in 2024 and an MSc in Geospatial Data Science from <a href="https://geog.hku.hk/" target="_blank" rel="noopener noreferrer"><strong>the University of Hong Kong</strong></a> in 2025.</p></div>
+    </div>
+    <div class="avatar-wrap"><img class="avatar" src="images/20250112200711-fdb0e28c.webp" width="174" height="174" style="opacity:0.8999999761581421" alt="Portrait of Muyi Zhu" decoding="async"></div>
+  </section>
+  <div class="home-columns">
+    <aside class="contact-sidebar" aria-label="Research interests and contact">
+  <div class="research-interests"><p>My key research interests include:</p><ul><li>Road Safety</li><li>Infrastructure Evaluation</li><li>Spatiotemporal Urban Mobility</li><li>Air Quality Modeling</li></ul></div>
+  <div class="contact-links"><a href="mailto:zhumuyi0321@connect.hku.hk">zhumuyi0321@connect.hku.hk <span aria-hidden="true">↗</span></a>
+<a href="https://scholar.google.com/citations?user=OaiAW3MAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+<a href="https://www.linkedin.com/in/muyi-zhu" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+<a href="https://orcid.org/0009-0000-6889-0968" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a></div>
+</aside>
 
-        <!-- News Section -->
-        <section class="news-section">
-            <div class="container">
-                <h2 class="section-title">News</h2>
-                <div class="news-container">
-                    <div class="news-list">
-                        <div class="news-item">
-                            <span class="news-date">[2026-04]</span>
-                            <p>Our paper <em>Cross-City Transfer Learning for High-Resolution Ultrafine Particle Mapping and Environmental Justice</em> has been accepted by <strong><a href="https://www.isee26.org/" target="_blank">ISEE2026</a></strong>.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">[2026-04]</span>
-                            <p>Our paper <em><a href="https://doi.org/10.1016/j.compenvurbsys.2026.102436" target="_blank">Generative AI and causal-spatial modeling for understanding nighttime pedestrian risk in urban systems</a></em> has been published online in <strong>Computers, Environment and Urban Systems</strong>.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">[2025-10]</span>
-                            <p>Our paper <em>Investigating Day-Night Pedestrian Crash Risk Using Double Machine Learning and Geographically Weighted Causal Random Forests with Synthesized Street View Imagery</em> has been accepted by the <strong>TRB Annual Meeting</strong>.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">[2025-09]</span>
-                            <p>Our paper <em><a href="https://doi-org.eproxy.lib.hku.hk/10.1016/j.apgeog.2025.103776" target="_blank">Unveiling changes in urban visual perception inequality in high-density cities: Insights from housing types and travel distances using time-series street view imagery</a></em> has been accepted by the <strong>Applied Geography</strong>.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">[2025-08]</span>
-                            <p>Our paper <em><a href="https://doi.org/10.1016/j.jtrangeo.2025.104382" target="_blank">Regional optimization of new-energy bus charging stations using a hybrid model integrating graph convolutional networks and simulated annealing</a></em> has been accepted by the <strong>Journal of Transport Geography</strong>.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">[2025-06]</span>
-                            <p>Delivered a talk on our champion storymap project <em><a href="https://arcg.is/1T0P9S1" target="_blank">Mapping Despair: Geographic Insights into Suicide in HK</a></em> at the <strong>Esri Young Scholars Award 2025 <a href="https://www.linkedin.com/posts/esri-china-hong-kong-limited_esrichinahk-esriysa-gis-activity-7347530303017492480-GPKU" target="_blank">Award Presentation Ceremony</a></strong>.</p>
-                        </div>
-                        <div class="news-item">
-                            <span class="news-date">[2025-06]</span>
-                            <p>Our paper <em>Commuter Exposure to Air Pollution in a Highly Transit-Dependent City: A CaseStudy of Hong Kong Island</em> has been accepted by the <strong><a href="https://www.tapconference.org/" target="_blank">Transport and Pollution (TaP) International Conference 2025</a></strong>.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <section class="projects-section" aria-labelledby="projects-title" id="projects">
+      <div class="section-heading"><h2 id="projects-title">Project</h2></div>
+      <div class="project-grid"><a class="project-card" href="project-nighttime-pedestrian-safety/" data-figma-node="30:276"><div class="project-image" style="--image-opacity:1;--image-filter:saturate(0.750);"><img src="images/andyleunghk-hongkong-2749655-1920-ae3620ad.webp" width="1280" height="1280" alt="Nighttime Pedestrian Safety" loading="lazy" decoding="async"></div><div class="project-label"><h3>Nighttime Pedestrian Safety</h3><p>2026</p></div></a>
+<a class="project-card" href="project-visual-inequality-perception/" data-figma-node="35:643"><div class="project-image" style="--image-opacity:1;--image-filter:saturate(0.720);"><img src="images/jonaskim-street-3230554-1920-8380fcf6.webp" width="1286" height="1286" alt="Visual Inequality Perception" loading="lazy" decoding="async"></div><div class="project-label"><h3>Visual Inequality Perception</h3><p>2025</p></div></a>
+<a class="project-card" href="project-optimization-of-charging-stations/" data-figma-node="37:655"><div class="project-image" style="--image-opacity:1;--image-filter:saturate(0.750);"><img src="images/daimler-buses-axon-easy-ekoenergetyka-sweden-ebus-44d9fd80.webp" width="2667" height="2667" alt="Optimization of Charging Stations" loading="lazy" decoding="async"></div><div class="project-label"><h3>Optimization of Charging Stations</h3><p>2025</p></div></a>
+<article class="project-card" data-figma-node="37:691"><div class="project-image" style="--image-opacity:1;"><img src="images/5116225-subway-5623053-1920-7ccc6d1f.webp" width="1235" height="1235" alt="Commute Exposure" loading="lazy" decoding="async"></div><div class="project-label"><h3>Commute Exposure</h3><p>2025</p></div></article>
+<a class="project-card" href="project-ride-hailing-gender-gaps/" data-figma-node="37:667"><div class="project-image" style="--image-opacity:1;--image-filter:saturate(0.790);"><img src="images/laurapuig4-taxi-988348-1920-396d89f9.webp" width="1359" height="1359" alt="Ride-hailing Gender Gaps" loading="lazy" decoding="async"></div><div class="project-label"><h3>Ride-hailing Gender Gaps</h3><p>2025</p></div></a>
+<a class="project-card" href="https://arcg.is/1T0P9S1" target="_blank" rel="noopener noreferrer" data-figma-node="37:703"><div class="project-image" style="--image-opacity:1;"><img src="images/facade-4093235-1920-7c692d64.webp" width="1177" height="1177" alt="Suicide &amp; Geography" loading="lazy" decoding="async"></div><div class="project-label"><h3>Suicide &amp; Geography</h3><p>2025</p></div></a>
+<a class="project-card" href="project-urban-renewal/" data-figma-node="37:679"><div class="project-image" style="--image-opacity:1;"><img src="images/squirrel-photos-bridge-4832072-1920-9255ee86.webp" width="1280" height="1280" alt="Urban Renewal" loading="lazy" decoding="async"></div><div class="project-label"><h3>Urban Renewal</h3><p>2024</p></div></a>
+<a class="project-card" href="project-urban-green-network-reconnection/" data-figma-node="30:381"><div class="project-image" style="--image-opacity:1;"><img src="images/image-23d45da1.webp" width="814" height="814" alt="Urban Green Network Reconnection" loading="lazy" decoding="async"></div><div class="project-label"><h3>Urban Green Network Reconnection</h3><p>2023</p></div></a>
+<a class="project-card" href="project-eco-waterfront/" data-figma-node="26:134"><div class="project-image" style="--image-opacity:1;"><img src="images/cover-157376bd.webp" width="426" height="426" alt="Eco-Waterfront" loading="lazy" decoding="async"></div><div class="project-label"><h3>Eco-Waterfront</h3><p>2023</p></div></a>
+<a class="project-card" href="project-elder-friendly-transit-oriented-development/" data-figma-node="31:488"><div class="project-image" style="--image-opacity:1;--image-filter:contrast(1.110);"><img src="images/cover-de317904.webp" width="727" height="727" alt="Elder-friendly TOD" loading="lazy" decoding="async"></div><div class="project-label"><h3>Elder-friendly TOD</h3><p>2022</p></div></a>
+<a class="project-card" href="project-post-industrial-renaissance/" data-figma-node="17:1543"><div class="project-image" style="--image-opacity:1;"><img src="images/cover-2c70386e.webp" width="750" height="750" alt="Post-Industrial Renaissance" loading="lazy" decoding="async"></div><div class="project-label"><h3>Post-Industrial Renaissance</h3><p>2021</p></div></a></div>
+    </section>
+  </div>
+</main>
 
-        <!-- Publications Section -->
-        <section class="publications-section">
-            <div class="container">
-                <h2 class="section-title">Publications & Conference</h2>
-                <div class="publications-list">
-                    <div class="publication-card" data-date="2026.09.00">
-                        <div class="publication-content">
-                            <h3 class="publication-title">
-                                <a href="https://www.isee26.org/" target="_blank">Cross-city transfer learning for high-resolution ultrafine particle mapping and environmental justice</a>
-                            </h3>
-                            <div class="publication-meta">
-                                <div class="publication-keywords">
-                                    <span class="keyword">Ultrafine particles</span>
-                                    <span class="keyword">Transfer learning</span>
-                                    <span class="keyword">Environmental justice</span>
-                                    <span class="keyword">Mobile monitoring</span>
-                                    <span class="keyword">Satellite-derived predictors</span>
-                                    <span class="keyword">Exposure modeling</span>
-                                </div>
-                                <p class="publication-authors"><strong>Muyi Zhu</strong>, Junshi Xu, Wenyuan Li, Marshall Lloyd, Emmanuelle Batisse, Arman Ganji, Sijie Ruan, Scott Weichenthal, Marianne Hatzopoulou</p>
-                                <p class="publication-journal">Annual Conference of the International Society for Environmental Epidemiology 2026 (Poster Presentation)</p>
-                            </div>
-                        </div>
-                        <div class="publication-image">
-                            <img src="images/publications/Cross-city transfer learning for high-resolution ultrafine particle mapping and environmental justice.png" alt="Ultrafine particle mapping and environmental justice" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="publication-image-placeholder" style="display: none;">
-                                <i class="fas fa-chart-area"></i>
-                            </div>
-                        </div>
-                    </div>
+    <footer class="site-footer">
+  <span>© 2026 Muyi Zhu</span>
+  <a href="mailto:zhumuyi0321@connect.hku.hk">Get in touch <span aria-hidden="true">↗</span></a>
+</footer>
 
-                    <div class="publication-card" data-date="2026.04.03">
-                        <div class="publication-content">
-                            <h3 class="publication-title">
-                                <a href="https://doi.org/10.1016/j.compenvurbsys.2026.102436" target="_blank">Generative AI and causal-spatial modeling for understanding nighttime pedestrian risk in urban systems</a>
-                            </h3>
-                            <div class="publication-meta">
-                                <div class="publication-keywords">
-                                    <span class="keyword">Generative AI</span>
-                                    <span class="keyword">Causal-Spatial Modeling</span>
-                                    <span class="keyword">Nighttime Pedestrian Risk</span>
-                                    <span class="keyword">Urban Systems</span>
-                                </div>
-                                <p class="publication-authors"><strong>Muyi Zhu</strong>, Xiaotong Ye, Yuankai Wang, Chenming Niu, Waishan Qiu, Junshi Xu</p>
-                                <p class="publication-journal">Computers, Environment and Urban Systems (IF<sub>2024</sub>=8.3)</p>
-                            </div>
-                        </div>
-                        <div class="publication-image">
-                            <img src="images/publications/Generative AI and causal-spatial modeling for understanding nighttime pedestrian risk in urban systems.png" alt="Nighttime pedestrian risk modeling" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="publication-image-placeholder" style="display: none;">
-                                <i class="fas fa-moon"></i>
-                            </div>
-                        </div>
-                    </div>
+  </div>
+  <dialog class="image-dialog" aria-label="Image viewer">
+  <div class="image-toolbar">
+    <div class="image-tools">
+      <a class="image-original" target="_blank" rel="noopener noreferrer">Open image ↗</a>
+      <button type="button" class="image-close" aria-label="Close image viewer">Close ×</button>
+    </div>
+  </div>
+  <div class="image-stage"><img alt=""></div>
+</dialog>
 
-                    <div class="publication-card" data-date="2025.08.07">
-                        <div class="publication-content">
-                            <h3 class="publication-title">
-                                <a href="https://doi.org/10.1016/j.jtrangeo.2025.104382" target="_blank">Regional optimization of new-energy bus charging stations using a hybrid model integrating graph convolutional networks and simulated annealing</a>
-                            </h3>
-                            <div class="publication-meta">
-                                <div class="publication-keywords">
-                                    <span class="keyword">Electric Bus Charging Stations</span>
-                                    <span class="keyword">Graph Convolutional Network (GCN)</span>
-                                    <span class="keyword">Simulated Annealing (SA)</span>
-                                </div>
-                                <p class="publication-authors">Tianqi Gu, <strong>Muyi Zhu</strong>, Jiao Jiao, Hyungchul Chung</p>
-                                <p class="publication-journal">Journal of Transport Geography</p>
-                            </div>
-                        </div>
-                        <div class="publication-image">
-                            <img src="images/publications/Regional optimization of new-energy bus charging stations using a hybrid model integrating graph convolutional networks and simulated annealing.png" alt="Bus charging stations optimization" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                            <div class="publication-image-placeholder" style="display: none;">
-                                <i class="fas fa-charging-station"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="publications.html" class="btn btn-outline">View All Publications</a>
-                </div>
-            </div>
-        </section>
-
-        
-
-        <!-- Internships Section -->
-        <section class="internships-section">
-            <div class="container">
-                <h2 class="section-title">Internships</h2>
-                <ul class="internships-list">
-                    <li><strong>Urban planner assistant</strong>, AAArchLaaand (Beijing) Architectural Design Co., Ltd., Beijing, <em>2023.09-2023.11</em></li>
-                    <li><strong>Urban planner assistant</strong>, Internationales Stadtbauatelier, Guangdong, <em>2023.07</em></li>
-                    <li><strong>Urban planner assistant</strong>, CAUPD Beijing Planning ＆ Design Co., Ltd., Beijing, <em>2022.07-2022.08</em></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Awards Section -->
-        <section class="awards-section">
-            <div class="container">
-                <h2 class="section-title">Awards</h2>
-                <ul class="awards-list">
-                    <li><strong>Champion</strong> of <a href="https://web.esrichina.hk/ysa/result_announcement.aspx" target="_blank">2025 Esri Young Scholars Award</a> (Group leader), <em>2025</em></li>
-                    <li><strong>Deep Reflection Award</strong> of <a href="https://mp.weixin.qq.com/s/W_46S0j0H0IsHi7hyL9Ldg" target="_blank">"Greater Bay Area Expedition 2023"</a> Inspirational Study Abroad Program, <em>2023</em></li>
-                    <li><strong>Bronze prize</strong> of 2023 China International Landscape Planning and Design Competition, <em>2023</em></li>
-                    <li><strong>Bronze Award</strong> of Asian Digital Art Design Competition 2023 (Architecture, Urban planning, Landscape), <em>2023</em></li>
-                    <li><strong>First Prize</strong> of the fourth National <a href="https://mp.weixin.qq.com/s/F0885s5IK-8t1wfvtqgyAQ" target="_blank">"Green Building Design"</a> Skill Competition, <em>2022</em></li>
-                    <li><strong>Third-class Scholarship</strong> for outstanding students of Beijing Forestry University (Top 25%), <em>2020/2023</em></li>
-                    <li><strong>First-class Scholarship</strong> for outstanding students of Beijing Forestry University (Top 2%), <em>2019</em></li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2026 Muyi Zhu. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-    
+  <button class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
 </body>
 </html>

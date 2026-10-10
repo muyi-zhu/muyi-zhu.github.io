@@ -1,0 +1,400 @@
+[
+  {
+    "nodeId": "30:276",
+    "title": "Nighttime Pedestrian Safety",
+    "year": "2026",
+    "image": {
+      "src": "images/andyleunghk-hongkong-2749655-1920-ae3620ad.webp",
+      "full": "images/andyleunghk-hongkong-2749655-1920-ae3620ad-full.webp",
+      "width": 1280,
+      "height": 1280,
+      "nodeId": "30:288",
+      "hash": "ae3620ad451cbfd0330b82e44c7018ba8718241f",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {
+        "tint": 0,
+        "shadows": 0,
+        "highlights": 0,
+        "exposure": 0,
+        "temperature": -0.3499999940395355,
+        "vibrance": -0.25,
+        "contrast": 0
+      }
+    },
+    "link": {
+      "route": "project-nighttime-pedestrian-safety"
+    }
+  },
+  {
+    "nodeId": "35:643",
+    "title": "Visual Inequality Perception",
+    "year": "2025",
+    "image": {
+      "src": "images/jonaskim-street-3230554-1920-8380fcf6.webp",
+      "full": "images/jonaskim-street-3230554-1920-8380fcf6-full.webp",
+      "width": 1286,
+      "height": 1286,
+      "nodeId": "35:644",
+      "hash": "8380fcf60e5a872b79d1334fc9db40a26e06319c",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {
+        "tint": 0,
+        "shadows": 0,
+        "highlights": 0,
+        "exposure": 0,
+        "temperature": -0.3499999940395355,
+        "vibrance": -0.2800000011920929,
+        "contrast": 0
+      }
+    },
+    "link": {
+      "route": "project-visual-inequality-perception"
+    }
+  },
+  {
+    "nodeId": "37:655",
+    "title": "Optimization of Charging Stations",
+    "year": "2025",
+    "image": {
+      "src": "images/daimler-buses-axon-easy-ekoenergetyka-sweden-ebus-44d9fd80.webp",
+      "full": "images/daimler-buses-axon-easy-ekoenergetyka-sweden-ebus-44d9fd80-full.webp",
+      "width": 2667,
+      "height": 2667,
+      "nodeId": "37:656",
+      "hash": "44d9fd8017f8511d1195c5e69a9002d980fe3ab3",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {
+        "tint": 0,
+        "shadows": 0,
+        "highlights": 0,
+        "exposure": 0,
+        "temperature": -0.1899999976158142,
+        "vibrance": -0.25,
+        "contrast": 0
+      }
+    },
+    "link": {
+      "route": "project-optimization-of-charging-stations"
+    }
+  },
+  {
+    "nodeId": "37:691",
+    "title": "Commute Exposure",
+    "year": "2025",
+    "image": {
+      "src": "images/5116225-subway-5623053-1920-7ccc6d1f.webp",
+      "full": "images/5116225-subway-5623053-1920-7ccc6d1f-full.webp",
+      "width": 1235,
+      "height": 1235,
+      "nodeId": "37:692",
+      "hash": "7ccc6d1fb1ab04810627f5eb8735c24ff9f2d95a",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {}
+    },
+    "link": {}
+  },
+  {
+    "nodeId": "37:667",
+    "title": "Ride-hailing Gender Gaps",
+    "year": "2025",
+    "image": {
+      "src": "images/laurapuig4-taxi-988348-1920-396d89f9.webp",
+      "full": "images/laurapuig4-taxi-988348-1920-396d89f9-full.webp",
+      "width": 1359,
+      "height": 1359,
+      "nodeId": "37:668",
+      "hash": "396d89f94957913819a676248fb1885f99bfbb5c",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {
+        "tint": 0,
+        "shadows": 0,
+        "highlights": 0,
+        "exposure": 0,
+        "temperature": 0.07999999821186066,
+        "vibrance": -0.20999999344348907,
+        "contrast": 0
+      }
+    },
+    "link": {
+      "route": "project-ride-hailing-gender-gaps"
+    }
+  },
+  {
+    "nodeId": "37:703",
+    "title": "Suicide & Geography",
+    "year": "2025",
+    "image": {
+      "src": "images/facade-4093235-1920-7c692d64.webp",
+      "full": "images/facade-4093235-1920-7c692d64-full.webp",
+      "width": 1177,
+      "height": 1177,
+      "nodeId": "37:704",
+      "hash": "7c692d64e3aa3100a26e3f6cb8503e6cf6020852",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {}
+    },
+    "link": {
+      "external": "https://arcg.is/1T0P9S1"
+    }
+  },
+  {
+    "nodeId": "37:679",
+    "title": "Urban Renewal",
+    "year": "2024",
+    "image": {
+      "src": "images/squirrel-photos-bridge-4832072-1920-9255ee86.webp",
+      "full": "images/squirrel-photos-bridge-4832072-1920-9255ee86-full.webp",
+      "width": 1280,
+      "height": 1280,
+      "nodeId": "37:680",
+      "hash": "9255ee86af04f0b0fa8f4d2faa2a3ba4ee0df79e",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {}
+    },
+    "link": {
+      "route": "project-urban-renewal"
+    }
+  },
+  {
+    "nodeId": "30:381",
+    "title": "Urban Green Network Reconnection",
+    "year": "2023",
+    "image": {
+      "src": "images/image-23d45da1.webp",
+      "full": "images/image-23d45da1-full.webp",
+      "width": 814,
+      "height": 814,
+      "nodeId": "32:612",
+      "hash": "23d45da14fde52c887cd0ceba903dcb100f8ba8c",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {
+        "tint": 0,
+        "shadows": 0,
+        "highlights": 0,
+        "exposure": 0,
+        "temperature": -0.05999999865889549,
+        "vibrance": 0,
+        "contrast": 0
+      }
+    },
+    "link": {
+      "route": "project-urban-green-network-reconnection"
+    }
+  },
+  {
+    "nodeId": "26:134",
+    "title": "Eco-Waterfront",
+    "year": "2023",
+    "image": {
+      "src": "images/cover-157376bd.webp",
+      "full": "images/cover-157376bd-full.webp",
+      "width": 426,
+      "height": 426,
+      "nodeId": "27:268",
+      "hash": "157376bd0eac1cbb36ffb23c43be4d561c9badd3",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {}
+    },
+    "link": {
+      "route": "project-eco-waterfront"
+    }
+  },
+  {
+    "nodeId": "31:488",
+    "title": "Elder-friendly TOD",
+    "year": "2022",
+    "image": {
+      "src": "images/cover-de317904.webp",
+      "full": "images/cover-de317904-full.webp",
+      "width": 727,
+      "height": 727,
+      "nodeId": "32:604",
+      "hash": "de317904a8bca1751e34377cd15e4f39e7310a8d",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {
+        "tint": 0,
+        "shadows": 0,
+        "highlights": 0,
+        "exposure": 0,
+        "temperature": 0,
+        "vibrance": 0,
+        "contrast": 0.10999999940395355
+      }
+    },
+    "link": {
+      "route": "project-elder-friendly-transit-oriented-development"
+    }
+  },
+  {
+    "nodeId": "17:1543",
+    "title": "Post-Industrial Renaissance",
+    "year": "2021",
+    "image": {
+      "src": "images/cover-2c70386e.webp",
+      "full": "images/cover-2c70386e-full.webp",
+      "width": 750,
+      "height": 750,
+      "nodeId": "18:1557",
+      "hash": "2c70386e09b0d08c6f85abf66cd77ef88298e8db",
+      "box": {
+        "x": 260,
+        "y": 260
+      },
+      "radius": 15,
+      "opacity": 1,
+      "mode": "FILL",
+      "transform": {
+        "m00": 1,
+        "m01": 0,
+        "m02": 0,
+        "m10": 0,
+        "m11": 1,
+        "m12": 0
+      },
+      "filters": {}
+    },
+    "link": {
+      "route": "project-post-industrial-renaissance"
+    }
+  }
+]

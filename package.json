@@ -1,0 +1,13 @@
+{
+  "name": "muyi-zhu-figma-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "release": "npm run build && npm run check && node scripts/sync-pages.mjs"
+  }
+}

@@ -1,0 +1,1302 @@
+[
+  {
+    "route": "project-post-industrial-renaissance",
+    "nodeId": "17:1407",
+    "title": "Post-Industrial Renaissance",
+    "subtitle": "Urban Renewal Design in the Beijing Thermal Power Plant Area Based on the Co-living Concept",
+    "year": "2021",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "23:70",
+        "html": "The design site, located in Chaoyang District in Beijing, aims to revitalize the abandoned industrial relics of the Beijing Thermal Power Plant. The project, based on the Co-living concept, provides diverse housing options for digital nomads, students, and entrepreneurs, fostering a unique community atmosphere. By transforming industrial relics into a vibrant residential community, the design embodies the concept of &quot;shared rebirth,&quot; symbolizing urban revitalization, historical homage, and optimism for the future.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      },
+      {
+        "type": "image",
+        "nodeId": "25:122",
+        "image": {
+          "src": "images/image1-971125dc.webp",
+          "full": "images/image1-971125dc-full.webp",
+          "width": 1660,
+          "height": 1174,
+          "nodeId": "25:122",
+          "hash": "971125dcb7f7f377b745d8de866a622b42db8cbe",
+          "box": {
+            "x": 890,
+            "y": 629.4337768554688
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "26:124",
+        "image": {
+          "src": "images/image2-665c8bd8.webp",
+          "full": "images/image2-665c8bd8-full.webp",
+          "width": 1964,
+          "height": 1389,
+          "nodeId": "26:124",
+          "hash": "665c8bd8997e835bd73d7af62e7feb68aa678a3c",
+          "box": {
+            "x": 890,
+            "y": 629.434814453125
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "26:126",
+        "image": {
+          "src": "images/image3-3525c3a6.webp",
+          "full": "images/image3-3525c3a6-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "26:126",
+          "hash": "3525c3a61c17e964c49c439e36f36faef9c4cd05",
+          "box": {
+            "x": 890,
+            "y": 629.1904296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "26:128",
+        "image": {
+          "src": "images/image4-144b9ed1.webp",
+          "full": "images/image4-144b9ed1-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "26:128",
+          "hash": "144b9ed15e0dbe137d3921a9b1505506166d95fd",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "26:130",
+        "image": {
+          "src": "images/image5-3c19a0c4.webp",
+          "full": "images/image5-3c19a0c4-full.webp",
+          "width": 2104,
+          "height": 1488,
+          "nodeId": "26:130",
+          "hash": "3c19a0c4bc7e835ef1570f1353ed73f8e4f1acf3",
+          "box": {
+            "x": 890,
+            "y": 629.4296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "26:132",
+        "image": {
+          "src": "images/image6-afa1c16e.webp",
+          "full": "images/image6-afa1c16e-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "26:132",
+          "hash": "afa1c16e55b1e19211fe9dbf03261617609675e9",
+          "box": {
+            "x": 890,
+            "y": 629.1904296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      }
+    ]
+  },
+  {
+    "route": "project-eco-waterfront",
+    "nodeId": "27:147",
+    "title": "Eco-Waterfront",
+    "subtitle": "South Boston Urban Design for Eco-friendly Commercial and Residential Districts",
+    "year": "2023",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "27:165",
+        "html": "The construction of the ecological office area will become a leader in the development of the Boston South Bay area. This office area is not just a workplace but also a vibrant community. Its appeal extends beyond work needs, serving as a unique living space that provides residents with a close connection to nature. Talent from surrounding universities will find an ideal intersection of work and living here, forming a community with an innovative spirit and vitality. By creating a coastal ecological corridor and urban recreational greenways, the project will infuse the city with new energy while showcasing the concept of sustainable urban development.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      },
+      {
+        "type": "image",
+        "nodeId": "27:252",
+        "image": {
+          "src": "images/image1-b3449403.webp",
+          "full": "images/image1-b3449403-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "27:252",
+          "hash": "b344940322cd95357d7ddc56f13d8f03a52f1204",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:254",
+        "image": {
+          "src": "images/image2-58b088bb.webp",
+          "full": "images/image2-58b088bb-full.webp",
+          "width": 2455,
+          "height": 1736,
+          "nodeId": "27:254",
+          "hash": "58b088bbbbdc05d8b49876fb88737759c921499a",
+          "box": {
+            "x": 890,
+            "y": 629.3441772460938
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:256",
+        "image": {
+          "src": "images/image3-86eb45b8.webp",
+          "full": "images/image3-86eb45b8-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "27:256",
+          "hash": "86eb45b8b05d71083b9f2bd5aa20fdd6c1770dfa",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:258",
+        "image": {
+          "src": "images/image4-427c0049.webp",
+          "full": "images/image4-427c0049-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "27:258",
+          "hash": "427c004953ff81085be1559bb9efbeec847b2831",
+          "box": {
+            "x": 890,
+            "y": 629.1904296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:260",
+        "image": {
+          "src": "images/image5-4fd8702c.webp",
+          "full": "images/image5-4fd8702c-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "27:260",
+          "hash": "4fd8702cf3ba2976450b4f6bc954c91e09ec5c49",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:262",
+        "image": {
+          "src": "images/image6-e06dce2e.webp",
+          "full": "images/image6-e06dce2e-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "27:262",
+          "hash": "e06dce2e71e0ec52a4f16afd54f2bae19b54ecc7",
+          "box": {
+            "x": 890,
+            "y": 629.1904296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:264",
+        "image": {
+          "src": "images/image7-8a6d27b2.webp",
+          "full": "images/image7-8a6d27b2-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "27:264",
+          "hash": "8a6d27b25b93c40932889da5bcc5188ae6da293d",
+          "box": {
+            "x": 890,
+            "y": 629.1904296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "27:266",
+        "image": {
+          "src": "images/image8-34a1db71.webp",
+          "full": "images/image8-34a1db71-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "27:266",
+          "hash": "34a1db71e6f0ddeccd38ff15cab9ed5cca02cc6b",
+          "box": {
+            "x": 890,
+            "y": 629.1904296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      }
+    ]
+  },
+  {
+    "route": "project-nighttime-pedestrian-safety",
+    "nodeId": "30:290",
+    "title": "Nighttime Pedestrian Safety",
+    "subtitle": "Generative AI and causal-spatial modeling for understanding nighttime pedestrian risk in urban systems",
+    "year": "2026",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "30:308",
+        "html": "[<a href=\"https://doi.org/10.1016/j.compenvurbsys.2026.102436\" target=\"_blank\" rel=\"noopener noreferrer\">paper</a>]\nUrban environments exhibit intricate spatial and visual structures that complicate efforts to model and interpret human-environment interactions. This complexity challenges our ability to capture how perceptual and spatial factors jointly shape movement and exposure patterns in cities, particularly under low-light conditions. However, most spatial analytics frameworks lack high-resolution nighttime visual data and rely on context-insensitive models that overlook spatiotemporal heterogeneity. This study developed an integrated computational framework that combines Generative AI-based visual synthesis with causal-spatial machine learning to characterize urban visual environments and their influence on pedestrian crash risk. To this end, a citywide dataset of AI-synthesized nighttime street view imagery was established using a CycleGAN model fine-tuned on local Hong Kong data, enabling a realistic representation of street-level illumination and visibility. The derived visual metrics were then incorporated into a geographically weighted causal random forest integrated with double machine learning to estimate localized causal effects while addressing confounding and nonlinearity. The results reveal that visual overload from dense built structures increases pedestrian crash risk, whereas clear spatial boundaries and balanced lighting contrast reduce hazards in low-light conditions. Nighttime visibility of walking paths shows stronger protective effects than overall brightness, suggesting that excessive illumination may impair rather than enhance safety. The study highlights the value of combining generative visual analytics with causal-spatial inference for large-scale, perception-aware analysis of urban environments. The proposed framework advances computational urban analytics and provides transferable tools for data-driven, context-sensitive street design and pedestrian safety planning.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      }
+    ]
+  },
+  {
+    "route": "project-urban-green-network-reconnection",
+    "nodeId": "30:394",
+    "title": "Urban Green Network Reconnection",
+    "subtitle": "San Francisco Regional Green Space System Planning and Street Renovation",
+    "year": "2023",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "30:412",
+        "html": "Sustainable urban development must be built upon a healthier urban green space system. The planning of the green space system not only focuses on urban beautification but also emphasizes its ecological functions. Through an in-depth analysis of the greenery index of San Francisco&#x27;s urban streets, we identified vulnerable areas within the city. By introducing innovative greening solutions such as rain gardens, we are committed to enhancing the resilience of the area, promoting ecological balance, and improving the overall quality of life for residents.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      },
+      {
+        "type": "image",
+        "nodeId": "33:614",
+        "image": {
+          "src": "images/image1-9bb468b9.webp",
+          "full": "images/image1-9bb468b9-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "33:614",
+          "hash": "9bb468b945a7bff768eab88401d8fe67c95c991b",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "33:616",
+        "image": {
+          "src": "images/image2-7ff010f8.webp",
+          "full": "images/image2-7ff010f8-full.webp",
+          "width": 1473,
+          "height": 1041,
+          "nodeId": "33:616",
+          "hash": "7ff010f8ebcc580d71669b73debcb3e7eb4227a3",
+          "box": {
+            "x": 890,
+            "y": 628.981689453125
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "33:618",
+        "image": {
+          "src": "images/image3-bcead320.webp",
+          "full": "images/image3-bcead320-full.webp",
+          "width": 2020,
+          "height": 1428,
+          "nodeId": "33:618",
+          "hash": "bcead320c1e63078ccc2d5f62ebf9667411e98e1",
+          "box": {
+            "x": 890,
+            "y": 629.1683349609375
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "33:620",
+        "image": {
+          "src": "images/image4-e2c5a038.webp",
+          "full": "images/image4-e2c5a038-full.webp",
+          "width": 2333,
+          "height": 1649,
+          "nodeId": "33:620",
+          "hash": "e2c5a0386ad46d11128f96dce838b5259bd351e5",
+          "box": {
+            "x": 890,
+            "y": 629.0656127929688
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "33:622",
+        "image": {
+          "src": "images/image5-e97b4c0a.webp",
+          "full": "images/image5-e97b4c0a-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "33:622",
+          "hash": "e97b4c0a12aa41112ed5a927fdb21c4eaa40688d",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "33:624",
+        "image": {
+          "src": "images/image6-75f1d698.webp",
+          "full": "images/image6-75f1d698-full.webp",
+          "width": 2104,
+          "height": 1488,
+          "nodeId": "33:624",
+          "hash": "75f1d6986785aabfce9dd6a61de9b654c1611aa9",
+          "box": {
+            "x": 890,
+            "y": 629.4296875
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "33:626",
+        "image": {
+          "src": "images/image7-ab05e867.webp",
+          "full": "images/image7-ab05e867-full.webp",
+          "width": 1403,
+          "height": 992,
+          "nodeId": "33:626",
+          "hash": "ab05e867744b41653820ed051245162544d8924a",
+          "box": {
+            "x": 890,
+            "y": 629.2800903320312
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      }
+    ]
+  },
+  {
+    "route": "project-elder-friendly-transit-oriented-development",
+    "nodeId": "31:501",
+    "title": "Elder-friendly Transit-Oriented Development",
+    "subtitle": "Adaptation and Renovation at Dongbaoxing Road Station",
+    "year": "2022",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "31:519",
+        "html": "To address the challenges faced by elderly individuals in transportation, we plan to comprehensively update and transform the Dongbaoxing Road subway station. Throughout this process, our priority will be to enhance pedestrian-friendly infrastructure, ensuring that seniors can easily and conveniently use public transportation. Simultaneously, we aim to improve outdated commercial formats to better meet the needs of the elderly. The plan includes introducing spaces tailored for elderly activities, such as leisure areas and reading corners, to enhance the station&#x27;s comfort. Additionally, we will increase green spaces in the vicinity, providing a pleasant resting environment for seniors and promoting both physical and mental well-being.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      },
+      {
+        "type": "image",
+        "nodeId": "31:591",
+        "image": {
+          "src": "images/image1-91de69da.webp",
+          "full": "images/image1-91de69da-full.webp",
+          "width": 1803,
+          "height": 1275,
+          "nodeId": "31:591",
+          "hash": "91de69daa4c2deec25c77fc888f27776af53fe00",
+          "box": {
+            "x": 920,
+            "y": 650.5823364257812
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "31:594",
+        "image": {
+          "src": "images/image2-290a064e.webp",
+          "full": "images/image2-290a064e-full.webp",
+          "width": 2104,
+          "height": 1487,
+          "nodeId": "31:594",
+          "hash": "290a064e5a854820b3a63f245098c4ea60fd73d1",
+          "box": {
+            "x": 920,
+            "y": 650.2091064453125
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "31:596",
+        "image": {
+          "src": "images/image2-290a064e.webp",
+          "full": "images/image2-290a064e-full.webp",
+          "width": 2104,
+          "height": 1487,
+          "nodeId": "31:596",
+          "hash": "290a064e5a854820b3a63f245098c4ea60fd73d1",
+          "box": {
+            "x": 920,
+            "y": 650.2091064453125
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "31:598",
+        "image": {
+          "src": "images/image3-79b0c317.webp",
+          "full": "images/image3-79b0c317-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "31:598",
+          "hash": "79b0c317ba2dbc3eca5167fdfe59900eb5bfbd12",
+          "box": {
+            "x": 920,
+            "y": 650.3991088867188
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "31:600",
+        "image": {
+          "src": "images/image4-6f40507b.webp",
+          "full": "images/image4-6f40507b-full.webp",
+          "width": 2104,
+          "height": 1488,
+          "nodeId": "31:600",
+          "hash": "6f40507b193927ac389427f040ce12a6fa051547",
+          "box": {
+            "x": 920,
+            "y": 650.6464233398438
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "31:602",
+        "image": {
+          "src": "images/image5-c4b8bb76.webp",
+          "full": "images/image5-c4b8bb76-full.webp",
+          "width": 1754,
+          "height": 1240,
+          "nodeId": "31:602",
+          "hash": "c4b8bb76a13c6a65bf2a3a609bca6b0233b98a8e",
+          "box": {
+            "x": 920,
+            "y": 650.3991088867188
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      }
+    ]
+  },
+  {
+    "route": "project-visual-inequality-perception",
+    "nodeId": "55:772",
+    "title": "Visual Inequality Perception",
+    "subtitle": "Unveiling changes in urban visual perception inequality in high-density cities: Insights from housing types and travel distances using time-series street view imagery",
+    "year": "2025",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "55:790",
+        "html": "[<a href=\"https://doi.org/10.1016/j.apgeog.2025.103776\" target=\"_blank\" rel=\"noopener noreferrer\">paper</a>]\nUrban visual perception (UVP) plays a critical role in shaping residents&#x27; quality of life by influencing their emotional and cognitive responses to urban environments. Previous studies have analyzed UVP using street view imagery (SVI) but have largely overlooked its spatiotemporal evolution and inequalities within walkable travel ranges. This study introduces a novel methodological framework using Hong Kong as a case study to analyze UVP changes from 2011 to 2021. We first identify static and dynamic UVP distributions, then explore spatial patterns across urban forms, housing types, and travel distances, and finally examine links between UVP changes and socioeconomic factors. The findings show that while Hong Kong&#x27;s overall UVP levels remained stable, significant spatiotemporal disparities emerged. Public housing policies improved UVP for some disadvantaged groups, but low-income private housing areas in Old Town faced poorer visual environments with lower greenery levels. Socioeconomic factors, including education and income, significantly influenced UVP transitions, with elderly and ethnic minority populations experiencing greater environmental inequalities. This study offers micro-level insights into urban planning and renewal, providing a scientific foundation for promoting equitable urban development.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      }
+    ]
+  },
+  {
+    "route": "project-optimization-of-charging-stations",
+    "nodeId": "62:853",
+    "title": "Optimization of Charging Stations",
+    "subtitle": "Regional optimization of new-energy bus charging stations using a hybrid model integrating graph convolutional networks and simulated annealing",
+    "year": "2025",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "62:871",
+        "html": "[<a href=\"https://doi.org/10.1016/j.jtrangeo.2025.104382\" target=\"_blank\" rel=\"noopener noreferrer\">paper</a>]\nElectrification of public bus fleets poses significant challenges for urban transit agencies, particularly in the strategic placement and capacity expansion of charging infrastructure to meet growing operational demands. Traditional optimization methods often neglect the complex spatial interdependencies within transit networks, resulting in uneven load distribution and unmet demand. This study introduces a hybrid framework that integrates Graph Convolutional Networks (GCNs) with a Simulated Annealing (SA) metaheuristic to optimize the placement of electric bus charging stations at a regional scale. Using Suzhou, China, as a case study, we construct a graph of 617 community zones—characterized by features such as bus route density, stop density, population, land use, and POI data—and train a two-layer GCN to rank zones by charging-suitability score. The top 100 candidates are then passed to an SA algorithm, which selects five additional station locations to augment the existing network of 148 sites. Graph-theoretic evaluation demonstrates that this approach reduces under-supplied stations by over 70 %, lowers the standard deviation of station load from 0.8743 to 0.7258, and enhances network connectivity and resilience. The modular design of the GCN + SA pipeline allows for straightforward retraining and re-optimization as service frequencies, demographic patterns, or demand profiles evolve, offering a flexible, data-driven tool for iterative infrastructure planning in diverse urban contexts.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      }
+    ]
+  },
+  {
+    "route": "project-ride-hailing-gender-gaps",
+    "nodeId": "66:939",
+    "title": "Ride-hailing Gender Gaps",
+    "subtitle": "Spatial-temporal insights into gender gaps in East Asian ride-hailing: Workload, efficiency, nighttime safety, and operational patterns",
+    "year": "2025",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "66:957",
+        "html": "[<a href=\"https://doi.org/10.1016/j.jtrangeo.2025.104213\" target=\"_blank\" rel=\"noopener noreferrer\">paper</a>]\nThis study investigates gender differences in the operational strategies of ride-hailing drivers in Suzhou, China, using identity-confirmed trip data from October 2023. Four novel operational metrics (workload, earning capacity, operational efficiency, and willingness to work far from home) were developed to quantify gender-based operational preferences between male drivers and female drivers, who were further divided into age groups. The Geographically Weighted Random Forest (GWRF) model was applied to examine spatial correlations with socioeconomic and built environment factors in order to understand the spatial and temporal preferences of the drivers. Statistics reveal only 5 % of the drivers are female and within that fewer (5 %) are young female drivers. Spatial-temporal analysis indicated that female drivers generally work shorter distances, earn less, and prioritize trips closer to home, which may be influenced by family caregiving responsibilities, but exhibit similar operational efficiency (indicated by revenue per hour) as male drivers under comparable demand conditions. Age gaps are further observed among female drivers: senior female drivers worked significantly longer during holidays but avoided nighttime operations similarly to younger females, reflecting the former group&#x27;s heavier financial burdens related to family responsibilities and shared safety concerns with the latter. The results of GWRF show little impact of street safety on daytime pick-up locations across genders which is different from Western contexts. However, nighttime spatial preferences significantly differ among younger female drivers compared to older and male drivers, reflecting higher safety concerns. These insights inform platform operators to prioritize order allocation near female drivers&#x27; residences and improve safety measures, thereby supporting gender equity and inclusivity at a government level.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      }
+    ]
+  },
+  {
+    "route": "project-urban-renewal",
+    "nodeId": "73:2273",
+    "title": "Urban Renewal",
+    "subtitle": "Planning and Design of Comprehensive Improvement and Upgrading of Urban Space of the North Second Ring Road, Beijing",
+    "year": "2024",
+    "blocks": [
+      {
+        "type": "text",
+        "nodeId": "73:2291",
+        "html": "The study focuses on the comprehensive improvement and planning of urban space along the North Second Ring Road in Beijing. Through in-depth research and analysis of the North Second Ring Road and its surrounding key areas, the study reveals the problems and challenges in cultural heritage protection, urban traffic organization, public space quality, and urban functional layout in this area.\nBased on the requirements of higher-level planning and the development potential of the region, planning strategies are proposed with ecological priority, cultural inheritance, traffic optimization, and functional integration as the main content. The aim is to ensure the green corridor of the capital&#x27;s ecological security pattern, improve the important nodes of urban service facilities, and position the planning for the inheritance and protection of important windows of the capital&#x27;s cultural heritage elements. Through strategies such as green ecology, traffic optimization, cultural heritage protection, and urban functional integration, diverse waterfront landscape spaces are created, urban ecological corridors are strengthened, traffic networks are optimized, slow traffic system networks are enhanced, cultural facilities are built to strengthen publicity, culturally oriented design of street spaces is emphasized, land use functional integration is increased, and the utilization and convenience of urban spaces are improved, promoting the enhancement of historical heritage, commercial, and public functions along the route and improving the living environment. Integrating urban landscape, historical culture, and modern life, further enhancing the cultural vitality and charm of the core area.\nFinally, through the design of the surrounding area of Deshengmen, detailed design of the Temple of Earth - Yonghe Temple - Imperial College area, typical under-bridge space design of the North Second Ring Road, urban greenway space design, and riverside space design along the North City Moat, the goal is to create an eco-friendly, culturally prosperous, convenient, and functionally integrated modern urban space, creating a better living environment for residents and contributing to the sustainable development of the city.",
+        "font": {
+          "family": "Schibsted Grotesk",
+          "style": "Regular",
+          "postscript": "SchibstedGrotesk-Regular"
+        },
+        "fontSize": 20
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2353",
+        "image": {
+          "src": "images/image-b5f27df4.webp",
+          "full": "images/image-b5f27df4-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2353",
+          "hash": "b5f27df46f8850747fdbfde204ab8259f788fba2",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2365",
+        "image": {
+          "src": "images/image-c0f4d300.webp",
+          "full": "images/image-c0f4d300-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2365",
+          "hash": "c0f4d3000c2f5a47dbe708b9d0e7ab3120e35849",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2395",
+        "image": {
+          "src": "images/image-39c212ec.webp",
+          "full": "images/image-39c212ec-full.webp",
+          "width": 1600,
+          "height": 900,
+          "nodeId": "73:2395",
+          "hash": "39c212ec019f4cc577012534a71ae52a369c610e",
+          "box": {
+            "x": 890,
+            "y": 500.6249694824219
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2401",
+        "image": {
+          "src": "images/image-ad29adae.webp",
+          "full": "images/image-ad29adae-full.webp",
+          "width": 1600,
+          "height": 900,
+          "nodeId": "73:2401",
+          "hash": "ad29adae5dc25caebe5bd3f2d02162cafebc650e",
+          "box": {
+            "x": 890,
+            "y": 500.6249694824219
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2407",
+        "image": {
+          "src": "images/image-8bc269df.webp",
+          "full": "images/image-8bc269df-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2407",
+          "hash": "8bc269dfc50f7a2761b83dd4551e75631a969487",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2413",
+        "image": {
+          "src": "images/image-4d57d33a.webp",
+          "full": "images/image-4d57d33a-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2413",
+          "hash": "4d57d33ad9303e7656ce36fe1af621ce6b4ec7d0",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2419",
+        "image": {
+          "src": "images/image-b5ed326c.webp",
+          "full": "images/image-b5ed326c-full.webp",
+          "width": 1600,
+          "height": 900,
+          "nodeId": "73:2419",
+          "hash": "b5ed326cb456f25cd9aeb520b72a1a234f37290b",
+          "box": {
+            "x": 890,
+            "y": 500.6249694824219
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2425",
+        "image": {
+          "src": "images/image-37a6467a.webp",
+          "full": "images/image-37a6467a-full.webp",
+          "width": 1600,
+          "height": 900,
+          "nodeId": "73:2425",
+          "hash": "37a6467ac014228cf4ed90cca9c68748f52ca7b3",
+          "box": {
+            "x": 890,
+            "y": 500.6249694824219
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2431",
+        "image": {
+          "src": "images/image-8976a4be.webp",
+          "full": "images/image-8976a4be-full.webp",
+          "width": 1600,
+          "height": 900,
+          "nodeId": "73:2431",
+          "hash": "8976a4be7a568a866f6d529ecfb749726d575cc8",
+          "box": {
+            "x": 890,
+            "y": 500.6249694824219
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2437",
+        "image": {
+          "src": "images/image-cc8bbd11.webp",
+          "full": "images/image-cc8bbd11-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2437",
+          "hash": "cc8bbd11bfdf219143341a65e6c49f94d6e2a0a3",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2443",
+        "image": {
+          "src": "images/image-bf11168d.webp",
+          "full": "images/image-bf11168d-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2443",
+          "hash": "bf11168d7f1b120299372850bd80bafe74d1624e",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2449",
+        "image": {
+          "src": "images/image-e69cdbe6.webp",
+          "full": "images/image-e69cdbe6-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2449",
+          "hash": "e69cdbe6a53dfd2eb8d74d480edb1b96fdc6329a",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      },
+      {
+        "type": "image",
+        "nodeId": "73:2455",
+        "image": {
+          "src": "images/image-22959b41.webp",
+          "full": "images/image-22959b41-full.webp",
+          "width": 1998,
+          "height": 1125,
+          "nodeId": "73:2455",
+          "hash": "22959b414245f3555fc1c63a5f3c0d4d0d25d9f6",
+          "box": {
+            "x": 890,
+            "y": 501.1261291503906
+          },
+          "radius": 0,
+          "opacity": 1,
+          "mode": "FILL",
+          "transform": {
+            "m00": 1,
+            "m01": 0,
+            "m02": 0,
+            "m10": 0,
+            "m11": 1,
+            "m12": 0
+          },
+          "filters": {}
+        }
+      }
+    ]
+  }
+]
