@@ -4,6 +4,9 @@
 2. 新图片放入 `public/images/`；给定准确的原始宽高。
 3. 执行 `npm run build`、`npm run check`。
 4. 本地刷新并检查桌面和手机布局。
+5. 在 GitHub Desktop 提交源码和资源修改，再 Push origin。GitHub Actions 自动构建并发布 `dist/`；不要提交 `dist/`。
+
+正式维护入口是 `muyi-zhu.github.io` 仓库。`Figma_website` 是设计参考版本，不同步编辑。
 
 正文只有 `html`（个人简介为 `bioHtml`）这一份来源。普通文字直接编辑，有链接或加粗时保留对应标签。段落之间的 `\n` 会生成段落间距，每一段内的标签应完整闭合。原始 Figma 文字仍保存在上级目录的 `.site` 和 `design-inspection` 中。
 

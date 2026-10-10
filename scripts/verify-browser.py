@@ -5,11 +5,12 @@ Start npm run preview first, then run python3 scripts/verify-browser.py.
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import json
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'docs/previews'
 OUT.mkdir(parents=True, exist_ok=True)
-BASE = 'http://127.0.0.1:4173'
+BASE = os.environ.get('SITE_PREVIEW_URL', 'http://127.0.0.1:4173').rstrip('/')
 routes = ['/', '/publication/', '/news/'] + ['/' + p['route'] + '/' for p in json.loads((ROOT / 'src/content/project-details.json').read_text())]
 results, errors = [], []
 formatting = {}

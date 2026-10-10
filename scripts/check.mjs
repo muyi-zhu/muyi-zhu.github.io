@@ -3,8 +3,15 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../dist');
 async function walk(dir){const files=[];for(const e of await readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);files.push(...(e.isDirectory()?await walk(p):[p]));}return files;}
-const htmlFiles=(await walk(root)).filter(p=>p.endsWith('.html'));
+const outputFiles=await walk(root);
+const htmlFiles=outputFiles.filter(p=>p.endsWith('.html'));
 const failures=[];let references=0;
+// Deploy only the generated website, never source, tooling or package metadata.
+const forbidden=new Set(['src','public','scripts','docs','node_modules','.git','.github','package.json','package-lock.json','README.md','.DS_Store']);
+for(const file of outputFiles){
+  const parts=path.relative(root,file).split(path.sep);
+  if(forbidden.has(parts[0])||parts.includes('.DS_Store'))failures.push(`${file}: development file in publish output`);
+}
 // Rich-text paragraphs must be independently balanced. Imported Figma styles
 // used to cross newlines, producing orphan tags and duplicated browser links.
 let paragraphs=0;
